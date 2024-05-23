@@ -9,7 +9,7 @@ data = {
 
 df = pd.DataFrame(data)
 print(df, end='\n\n')
-
+#행선택
 print("1*****************")
 print(df.iloc[2], end='\n\n')
 
@@ -18,7 +18,7 @@ print(df.iloc[0:5], end='\n\n')
 
 print("3*****************")
 print(df.iloc[[0,3,5]], end='\n\n')
-
+# 열선택
 print("4*****************")
 print(df.iloc[:,3], end='\n\n')
 
@@ -27,7 +27,7 @@ print(df.iloc[:,0:3], end='\n\n')
 
 print("6*****************")
 print(df.iloc[:,[1,3]], end='\n\n')
-
+# 행, 열 조합
 print("7*****************")
 print(df.iloc[0:3, 1:3], end='\n\n')
 
