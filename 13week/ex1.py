@@ -1,3 +1,4 @@
+#데이터 정제 실습: 결측치 처리
 import pandas as pd 
 
 air = pd.read_csv('air.csv')
